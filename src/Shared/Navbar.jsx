@@ -4,6 +4,13 @@ import logo from '../assets/logo.jpg'
 
 const Navbar = () => {
 
+    const navTabs = <>
+        <li> <Link to='/home'>Home</Link> </li>
+        <li> <a href='#aboutMe'>About Me</a> </li>
+        <li> <a href='#projects'>Projects</a> </li>
+        <li> <Link to='/blog'>Blog</Link> </li>
+        <li> <a href='#contactMe'>Contact Me</a> </li>
+    </>
   return (
     <div>
       <div className="navbar fixed bg-opacity-30 z-10 text-white bg-black max-w-screen-xl mx-auto">
@@ -29,22 +36,17 @@ const Navbar = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
-              <li>
-                <Link to="/">Home</Link>
-              </li>
+              {navTabs}
             </ul>
           </div>
-          <a className="btn btn-ghost text-2xl">
+          <div className="btn btn-ghost text-2xl">
             <img className=" w-8  rounded-full" src={logo} />
           Rocky's <span className=" text-orange-500"> Portfolio</span>
-          </a>
+          </div>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            
+          {navTabs}
           </ul>
         </div>
         <div className="navbar-end">
