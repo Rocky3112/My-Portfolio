@@ -1,32 +1,32 @@
 /* eslint-disable no-unused-vars */
-
-import { EmailJSResponseStatus } from '@emailjs/browser';
 import { useRef } from 'react';
-import { toast } from 'react-toastify';
+import SectionTitle from '../SectionTitle';
+import emailjs from 'emailjs-com';
+import { ToastContainer, toast } from 'react-toastify';
 
 const Contact = () => {
     const form = useRef();
 
     const handleSubmit = e => {
         e.preventDefault();
-        EmailJSResponseStatus.sendForm(`service_ili7eos`, `template_umw2cdp`, form.current, `x22iLk0sW4jvg_UGp`)
+        emailjs.sendForm(`service_ubx0k4e`, `template_tv5gkjj`, form.current, `fwUBPkDRGJGX8491J`)
             .then(function (response) {
-                // console.log('SUCCESS!', response.status, response.text);
                 toast.success('thanks for your message');
                 e.target.reset();
             }, function (error) {
-                // console.log('FAILED...', error);
+                
             });
     }
     return (
-        <div id='contactMe' className='mt-20 mb-10'>
-            <h3 className="text-md underline underline-offset-2 text-center my-4 text-accent">Contact Me</h3>
+        <div id='contactMe' className='mt-52 mb-10'>
+            
+            <SectionTitle heading={'Contact Me'}></SectionTitle>
             <div className=" min-h-screen">
                 <div data-aos="fade-up"
                     data-aos-duration="2000" className="hero-content flex-col lg:flex-row">
                     <div data-aos="fade-right" className="w-full max-w-xl p-5 rounded-xl ">
                         <h3 className="text-md text-center text-primary underline underline-offset-2 py-3">Contact Info</h3>
-                        <div className='flex items-center justify-evenly my-8 text-white'>
+                        <div className='flex items-center justify-evenly my-8 text-slate-200'>
                             <div onClick={() => {
                                 window.open('https://github.com/Rocky3112/');
                             }} className="flex flex-col items-center hover:underline  cursor-pointer bg-slate-400 shadow-2xl rounded-2xl py-4 px-5">
@@ -62,7 +62,7 @@ const Contact = () => {
                                     <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                                     <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                                 </svg>
-                                <a href="mailto:arburhanar@gmail.com">alomgirhossainrocky@gmail.com</a>
+                                <a href="mailto:alomgirhossainrocky@gmail.com">alomgirhossainrocky@gmail.com</a>
                             </figure>
                         </div>
                         <div>

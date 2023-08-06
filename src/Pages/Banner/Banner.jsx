@@ -9,7 +9,7 @@ const Banner = () => {
     }
     return (
         <div className=''>
-            <div data-aos="zoom-in" className="hero h-[85vh]">
+            <div data-aos="zoom-in" className="hero h-[85vh] mb-64">
                 <div className="hero-content flex-col lg:flex-row-reverse gap-5">
                     <img src={bannerPhoto} className="w-sm md:max-w-md rounded-lg shadow-slate-300 h-[500px]" alt='' />
                     <div className='w-xs md:max-w-3xl ' >
