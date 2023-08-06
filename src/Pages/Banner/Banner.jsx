@@ -8,11 +8,11 @@ const Banner = () => {
         window.open('https://drive.google.com/file/d/17DQmFH0WH_zj2VxiLZ6ma6eqCywf4-iR/view?usp=sharing');
     }
     return (
-        <div style={{}}>
+        <div className=''>
             <div data-aos="zoom-in" className="hero h-[85vh]">
                 <div className="hero-content flex-col lg:flex-row-reverse gap-5">
-                    <img src={bannerPhoto} className="w-sm md:max-w-md rounded-lg shadow-2xl" alt='' />
-                    <div className='w-xs md:max-w-4xl' >
+                    <img src={bannerPhoto} className="w-sm md:max-w-md rounded-lg shadow-slate-300 h-[500px]" alt='' />
+                    <div className='w-xs md:max-w-3xl ' >
                         <p className="text-xl font-semibold">Hello I'm</p>
                         <h1 className="text-2xl md:text-5xl font-bold py-1">Alamgir Hossain Rocky</h1>
                         <ReactTyped
@@ -28,7 +28,7 @@ const Banner = () => {
                             backSpeed={60}
                             loop
                         />
-                        <p className="text-md py-4 md:pr-8">I am a junior web developer. I love coding and coding is my passion. I like to constantly get acquainted with new technologies and take on challenges and I find joy in it. Recently I created some fullstack websites that you can find in the projects area.</p>
+                        <p className="text-md py-4 md:pr-8">As a passionate junior web developer, I constantly seek to expand my skills and embrace new technologies. I find joy in taking on challenges and crafting full-stack websites that deliver exceptional user experiences. My commitment to quality drives me to deliver impactful solutions. Eager to grow and contribute to meaningful projects that make a positive difference. Let's connect and collaborate to create innovative web experiences together!</p>
                         <div className='flex gap-8'>
                             <button onClick={handleDownloadCV} className="btn btn-accent">Download Resume</button>
                             <button
