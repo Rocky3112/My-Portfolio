@@ -3,6 +3,7 @@ import { useRef } from 'react';
 import SectionTitle from '../SectionTitle';
 import emailjs from 'emailjs-com';
 import { ToastContainer, toast } from 'react-toastify';
+import { Fade, Zoom } from 'react-awesome-reveal';
 
 const Contact = () => {
     const form = useRef();
@@ -26,7 +27,8 @@ const Contact = () => {
                     data-aos-duration="2000" className="hero-content flex-col lg:flex-row">
                     <div data-aos="fade-right" className="w-full max-w-xl p-5 rounded-xl ">
                         <h3 className="text-md text-center text-primary underline underline-offset-2 py-3">Contact Info</h3>
-                        <div className='flex items-center justify-evenly my-8 text-slate-200'>
+                        <Zoom>
+                            <div className='flex items-center justify-evenly my-8 text-slate-200'>
                             <div onClick={() => {
                                 window.open('https://github.com/Rocky3112/');
                             }} className="flex flex-col items-center hover:underline  cursor-pointer bg-slate-400 shadow-2xl rounded-2xl py-4 px-5">
@@ -46,6 +48,9 @@ const Contact = () => {
                                 <p className='underline-offset-2'>Facebook</p>
                             </div>
                         </div>
+                        </Zoom>
+
+                        <Fade direction='left'>
                         <div className='card'>
                             <h2 className="text-2xl">Phone</h2>
                             <figure style={{ justifyContent: 'flex-start' }} className='flex items-center' >
@@ -74,7 +79,9 @@ const Contact = () => {
                                 <address>Kajla, Matihar, Rajshahi </address>
                             </figure>
                         </div>
+                        </Fade>
                     </div>
+                    <Fade direction='right'>
                     <div data-aos="fade-left" className="card flex-shrink-0 w-full max-w-lg shadow-xl">
                         <div className="card-body">
                             <h3 className="text-md text-center text-primary underline underline-offset-2">Direct Mail</h3>
@@ -103,6 +110,7 @@ const Contact = () => {
                             </form>
                         </div>
                     </div>
+                    </Fade>
                 </div>
             </div>
         </div>
