@@ -1,0 +1,47 @@
+.project-site{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    background-image: url(./../../assets/chef-house.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: 5s ease-in-out;
+}
+.project-site:hover{
+    background-position: bottom;
+}
+
+.project-site2{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    background-image: url(./../../assets/career-hub.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: 5s ease-in-out;
+}
+.project-site2:hover{
+    background-position: bottom;
+}
+.project-site3{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    background-image: url(./../../assets/toy-world.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: 5s ease-in-out;
+}
+.project-site3:hover{
+    background-position: bottom;
+}
+
