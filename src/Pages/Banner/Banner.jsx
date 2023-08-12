@@ -6,7 +6,7 @@ import { Fade } from 'react-awesome-reveal';
 
 const Banner = () => {
     const handleDownloadCV = () => {
-        window.open('https://drive.google.com/file/d/17DQmFH0WH_zj2VxiLZ6ma6eqCywf4-iR/view?usp=sharing');
+        window.open('https://drive.google.com/file/d/1kSu4udUi1PUreL2PzqcrFd1zSGUPC6WV/view?usp=sharing');
     }
     return (
         <div className=''>
@@ -36,7 +36,7 @@ const Banner = () => {
                             <button onClick={handleDownloadCV} className="btn btn-accent">Download Resume</button>
                             <button
                                 onClick={() => {
-                                    window.open('https://www.fiverr.com/burhan190629?up_rollout=true')
+                                    window.open('')
                                 }}
                                 className="underline bg-slate-700 rounded-md text-accent p-3">Hire Me</button>
                         </div>
