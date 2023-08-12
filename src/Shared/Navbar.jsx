@@ -5,10 +5,10 @@ import logo from '../assets/logo.jpg'
 const Navbar = () => {
 
     const navTabs = <>
-        <li> <Link to='/home'>Home</Link> </li>
+        <li> <Link to='/'>Home</Link> </li>
         <li> <a href='#aboutMe'>About Me</a> </li>
         <li> <a href='#projects'>Projects</a> </li>
-        <li> <Link to='/blog'>Blog</Link> </li>
+        <li> <Link to='/'>Blog</Link> </li>
         <li> <a href='#contactMe'>Contact Me</a> </li>
     </>
   return (
