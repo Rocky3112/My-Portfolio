@@ -19,7 +19,7 @@ const Projects = () => {
             <h1 data-aos="zoom-in-down" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600" className="text-center font-bold text-4xl mt-16 text-red-500 p-7 mb-8 ">My Projects</h1>
             <div className='w-full md:w-8/12 mx-auto mt-10 md:mt-20'>
                 
-                <div data-aos="zoom-in-down" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1500" className='md:flex items-center gap-20 '>
+                {/* <div data-aos="zoom-in-down" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1500" className='md:flex items-center gap-20 '>
                     <div className='w-full mx-auto' >
                         <div className='project-site mx-auto'>
                             <img className="w-full h-[500px]" src={double_digit} alt="" />
@@ -57,8 +57,8 @@ const Projects = () => {
 
                         </div>
                     </div>
-                </div>
-                <div data-aos="zoom-in-down" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1500" className='md:flex items-center gap-20 '>
+                </div> */}
+                <div data-aos="zoom-in-down" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" className='md:flex items-center gap-20 my-20'>
                     <div className='w-full mx-auto' >
                         <div className='project-site mx-auto'>
                             <img className="w-full h-[500px]" src={sports_camp} alt="" />
@@ -98,7 +98,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div data-aos="zoom-in-down" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1500" className='md:flex items-center gap-20 '>
+                <div data-aos="zoom-in-down" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" className='md:flex items-center gap-20 '>
                     <div className='w-full mx-auto' >
                         <div className='project-site mx-auto'>
                             <img className="w-full h-[500px]" src={chef_house} alt="" />
@@ -145,7 +145,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div data-aos="zoom-in-down" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1500" className=' flex-row-reverse sm:flex  items-center gap-10 md:gap-20 mt-20 '>
+                <div data-aos="zoom-in-down" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" className=' flex-row-reverse sm:flex  items-center gap-10 md:gap-20 my-20 '>
                     <div className='w-full mx-auto' >
                         <div className='project-site mx-auto'>
                             <img className="w-full h-[500px]" src={career_hub} alt="" />

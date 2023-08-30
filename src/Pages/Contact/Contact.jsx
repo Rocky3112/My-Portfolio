@@ -19,7 +19,7 @@ const Contact = () => {
             });
     }
     return (
-        <div id='contactMe' className='mt-52 mb-10'>
+        <div id='contactMe' className='mt-20 mb-10'>
             
             <SectionTitle heading={'Contact Me'}></SectionTitle>
             <div className=" min-h-screen">

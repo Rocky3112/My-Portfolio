@@ -19,7 +19,7 @@ const Footer = () => {
             <p>
               Alamgir Hossain Rocky
               <br />
-              Providing reliable tech since 1992
+              Providing reliable services since 2020
             </p>
           </div>
           <div>
