@@ -6,11 +6,11 @@ import { Fade } from 'react-awesome-reveal';
 
 const Banner = () => {
     const handleDownloadCV = () => {
-        window.open('https://drive.google.com/file/d/1kSu4udUi1PUreL2PzqcrFd1zSGUPC6WV/view?usp=sharing');
+        window.open('https://drive.google.com/file/d/1eIRNpQGkF9NTHXEPOINtTdpvzYyEfbpR/view?usp=sharing');
     }
     return (
         <div className=''>
-            <div data-aos="zoom-in" className="hero h-[85vh] mb-64">
+            <div data-aos="zoom-in" className="hero h-[85vh] mb-10">
                 <div className="hero-content flex-col lg:flex-row-reverse gap-5">
                     <Fade direction='left'>
                     <img src={bannerPhoto} className="w-sm md:max-w-md rounded-lg shadow-slate-300 h-[500px]" alt='' />
