@@ -3,7 +3,7 @@
 
 const SectionTitle = ({heading}) => {
     return (
-        <div className="mx-auto text-center md:w-4/12 my-4">  
+        <div className="mx-auto text-center md:w-4/12 my-4 mx-7">  
             <p className="text-3xl uppercase font-semibold border-y-2 py-2 ">{heading}</p>
         </div>
     );

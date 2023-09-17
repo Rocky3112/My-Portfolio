@@ -5,7 +5,7 @@ import chef_house from '../../assets/chef-house.jpg'
 import toy_world from '../../assets/toy-world.jpg'
 import career_hub from '../../assets/career-hub.jpg'
 import sports_camp from '../../assets/sports-camp.jpg'
-import double_digit from '../../assets/double-digit.jpg'
+// import double_digit from '../../assets/double-digit.jpg'
 import Aos from "aos";
 import 'aos/dist/aos.css';
 
@@ -15,7 +15,7 @@ const Projects = () => {
         Aos.init({ duration: 3000, easing: 'ease' })
     }, [])
     return (
-        <div id="projects">
+        <div id="projects" className="mx-5">
             <h1 data-aos="zoom-in-down" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600" className="text-center font-bold text-4xl mt-16 text-red-500 p-7 mb-8 ">My Projects</h1>
             <div className='w-full md:w-8/12 mx-auto mt-10 md:mt-20'>
                 
