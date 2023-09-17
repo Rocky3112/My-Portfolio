@@ -3,13 +3,14 @@
 import { Fade } from 'react-awesome-reveal';
 import aboutMeImage from '../../assets/bannerImg.jpg';
 import SectionTitle from '../SectionTitle';
+import './aboutMe.css'
 
 const AboutMe = () => {
 
     return (
         <div
             style={{ overflow: 'hidden' }}
-            id='aboutMe' className='mt-60 lg:my-16 sm:mt-64'>
+            id='aboutMe' className='mt-80 lg:my-16 mt-72-mobile'>
             <SectionTitle heading={'About me'}></SectionTitle>
             <div data-aos="zoom-out-left" className="hero ">
                 <div className="hero-content flex-col lg:flex-row gap-6 md:gap-20 mx-9">
