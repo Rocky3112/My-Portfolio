@@ -2,6 +2,7 @@ import AboutMe from "../AboutMe/AboutMe";
 import Banner from "../Banner/Banner";
 import Contact from "../Contact/Contact";
 import MySkills from "../MySkills/MySkills";
+// import Project from "../Projects/Project";
 import Projects from "../Projects/Projects";
 
 const Home = () => {

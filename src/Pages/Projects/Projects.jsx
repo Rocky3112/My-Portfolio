@@ -14,6 +14,9 @@ const Projects = () => {
     useEffect(() => {
         Aos.init({ duration: 3000, easing: 'ease' })
     }, [])
+
+
+    
     return (
         <div id="projects" className="mx-5">
             <h1 data-aos="zoom-in-down" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600" className="text-center font-bold text-4xl mt-16 text-red-500 p-7 mb-8 ">My Projects</h1>
@@ -60,12 +63,22 @@ const Projects = () => {
                 </div> */}
                 <div data-aos="zoom-in-down" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" className='md:flex items-center gap-20 my-20'>
                     <div className='w-full mx-auto' >
-                        <div className='project-site mx-auto'>
-                            <img className="w-full h-[500px]" src={sports_camp} alt="" />
-                        </div>
+                    <div className="project-site mx-auto">
+            <Slider {...sliderSettings}>
+              <div>
+                <img className="w-full h-[500px]" src={sports_camp} alt="" />
+              </div>
+              <div>
+                <img className="w-full h-[500px]" src={image2} alt="" />
+              </div>
+              <div>
+                <img className="w-full h-[500px]" src={image3} alt="" />
+              </div>
+            </Slider>
+          </div>
                     </div>
                     <div className='w-full md:w-full mt-10 md:mt-0'>
-                        <div className='text-center' >
+                        <div className='text-justify' >
                             <h5 className='font-Gilroy font-extrabold text-2xl uppercase'>sports camp</h5>
                             <p className="text-xl"> Sports Camp Learning Platform</p>
                             <p className=" text-xl">
