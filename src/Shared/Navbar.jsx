@@ -13,7 +13,7 @@ const Navbar = () => {
     </>
   return (
     <div>
-      <div className="navbar lg:w-full fixed bg-opacity-30 z-10 text-white bg-black ">
+      <div className="navbar w-full fixed bg-opacity-30 z-10 text-white bg-black ">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -40,7 +40,7 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="btn btn-ghost text-2xl">
-            <img className=" w-8  rounded-full" src={logo} />
+            <img className=" w-8 h-9  rounded-full" src={logo} />
           Rocky's <span className=" text-orange-500"> Portfolio</span>
           </div>
         </div>

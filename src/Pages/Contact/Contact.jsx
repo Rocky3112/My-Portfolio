@@ -33,14 +33,14 @@ const Contact = () => {
                 </div>
                 <div data-aos="fade-up"
                     data-aos-duration="2000" className="hero-content flex-col lg:flex-row">
-                    <div data-aos="fade-right" className="w-full lg:max-w-xl p-5 rounded-xl ">
+                    <div data-aos="fade-right" className="w-full  p-5 rounded-xl ">
                         
                         <div className='sm:p-10 md:p-0 lg:p-2 '>
-                            <Lottie animationData={contact} loop={true} className='h-[650px]' />
+                            <Lottie animationData={contact} loop={true} className='lg:h-[250px] h-[450]'  />
                         </div>
                     </div>
                     <Fade direction='right'>
-                    <div data-aos="fade-left" className=" w-full lg:max-w-lg shadow-xl">
+                    <div data-aos="fade-left" className="card flex-shrink-0 w-full  shadow-xl">
                         <div className="card-body">
                             <h3 className="text-md text-center text-primary underline underline-offset-2">Direct Mail</h3>
                             <form ref={form} onSubmit={handleSubmit}>

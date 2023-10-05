@@ -30,7 +30,7 @@ const Projects = () => {
                 <div data-aos="zoom-in-down" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" className='md:flex items-center gap-20 my-20'>
                     <div className='w-full mx-auto' >
                         <div className="project-site mx-auto">
-                            <Carousel showThumbs={false} autoPlay={true} interval={3000}>
+                            <Carousel showThumbs={false} autoPlay={true} interval={2000}>
                                 <div>
                                     <img className="w-full h-[500px]" src={sports_camp1} alt="" />
                                 </div>
@@ -85,7 +85,7 @@ const Projects = () => {
                 <div data-aos="zoom-in-down" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1500" className='md:flex items-center lg:mt-10 gap-20'>
                     <div className='w-full mx-auto' >
                         <div className='project-site mx-auto'>
-                        <Carousel showThumbs={false} autoPlay={true} interval={3000}>
+                        <Carousel showThumbs={false} autoPlay={true} interval={2000}>
                                 <div>
                                     <img className="w-full h-[500px]" src={toy_world} alt="" />
                                 </div>
@@ -140,7 +140,7 @@ const Projects = () => {
                 <div data-aos="zoom-in-down" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" className='md:flex items-center gap-20 '>
                     <div className='w-full mx-auto' >
                         <div className='project-site mx-auto'>
-                        <Carousel showThumbs={false} autoPlay={true} interval={3000}>
+                        <Carousel showThumbs={false} autoPlay={true} interval={2000}>
                                 <div>
                                     <img className="w-full h-[500px]" src={chef_house} alt="" />
                                 </div>
