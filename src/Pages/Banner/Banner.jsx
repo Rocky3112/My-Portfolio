@@ -6,7 +6,7 @@ import { Fade } from 'react-awesome-reveal';
 
 const Banner = () => {
     const handleDownloadCV = () => {
-        window.open('https://drive.google.com/file/d/1eIRNpQGkF9NTHXEPOINtTdpvzYyEfbpR/view?usp=sharing');
+        window.open('https://drive.google.com/file/d/1ehCq_SijTpaC-8xH6OfBjzyGD1psecv2/view?usp=sharing');
     }
     return (
         <div className=''>
