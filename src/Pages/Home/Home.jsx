@@ -6,6 +6,7 @@ import MySkills from "../MySkills/MySkills";
 import Projects from "../Projects/Projects";
 
 const Home = () => {
+    
     return (
         <div>
             <Banner></Banner>
