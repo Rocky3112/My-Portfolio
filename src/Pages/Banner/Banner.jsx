@@ -31,7 +31,7 @@ const Banner = () => {
                             backSpeed={60}
                             loop
                         />
-                        <p className="text-md py-4 md:pr-8">As a passionate junior web developer, I constantly seek to expand my skills and embrace new technologies. I find joy in taking on challenges and crafting full-stack websites that deliver exceptional user experiences. My commitment to quality drives me to deliver impactful solutions. Eager to grow and contribute to meaningful projects that make a positive difference. Let's connect and collaborate to create innovative web experiences together!</p>
+                        <p className="text-md py-4 md:pr-8 text-justify">As a passionate junior web developer, I constantly seek to expand my skills and embrace new technologies. I find joy in taking on challenges and crafting full-stack websites that deliver exceptional user experiences. My commitment to quality drives me to deliver impactful solutions. Eager to grow and contribute to meaningful projects that make a positive difference. Let's connect and collaborate to create innovative web experiences together!</p>
                         <div className='flex gap-8'>
                             <button onClick={handleDownloadCV} className="btn btn-accent">Download Resume</button>
                             <button

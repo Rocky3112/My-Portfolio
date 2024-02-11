@@ -5,7 +5,7 @@ import JavaScript from "../../assets/assets/javascript.png";
 import ReactImg from "../../assets/assets/react.png";
 import Node from "../../assets/assets/node.png";
 import FireBase from "../../assets/assets/firebase.png";
-import GitHub from "../../assets/assets/github.png";
+// import GitHub from "../../assets/assets/github.png";
 import Tailwind from "../../assets/assets/tailwind.png";
 import Mongo from "../../assets/assets/mongo.png";
 

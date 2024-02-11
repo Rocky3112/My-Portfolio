@@ -19,7 +19,7 @@ const Home = () => {
 //     await console.log(container);
 //   }, []);
     return (
-        <div className="px-20">
+        <div className="lg:px-20">
              {/* <Particles
         id="tsparticles"
         init={particlesInit}
