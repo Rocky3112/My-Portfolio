@@ -16,7 +16,7 @@ const AboutMe = () => {
                 <div className="hero-content flex-col lg:flex-row gap-6 md:gap-20 mx-9">
                    <Fade duration={2000}>
                    <div>
-                        <img src={aboutMeImage} className="w-md md:max-w-sm rounded-full h-80" />
+                        <img src={aboutMeImage} className="w-md md:max-w-sm rounded-tr-[70px] rounded-bl-[70px] h-80 " />
                     </div>
                    </Fade>
                     <Fade direction='right'>

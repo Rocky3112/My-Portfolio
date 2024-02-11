@@ -1,26 +1,26 @@
-import { useCallback } from "react";
+// import { useCallback } from "react";
 import AboutMe from "../AboutMe/AboutMe";
 import Banner from "../Banner/Banner";
 import Contact from "../Contact/Contact";
 import MySkills from "../MySkills/MySkills";
 // import Project from "../Projects/Project";
 import Projects from "../Projects/Projects";
-import Particles from "react-tsparticles";
-import { loadSlim } from "tsparticles-slim";
+// import Particles from "react-tsparticles";
+// import { loadSlim } from "tsparticles-slim";
 
 
 
 const Home = () => {
-      const particlesInit = useCallback(async (engine) => {
-    await loadSlim(engine);
-  }, []);
+//       const particlesInit = useCallback(async (engine) => {
+//     await loadSlim(engine);
+//   }, []);
 
-  const particlesLoaded = useCallback(async (container) => {
-    await console.log(container);
-  }, []);
+//   const particlesLoaded = useCallback(async (container) => {
+//     await console.log(container);
+//   }, []);
     return (
-        <div>
-             <Particles
+        <div className="px-20">
+             {/* <Particles
         id="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}
@@ -88,7 +88,7 @@ const Home = () => {
           },
           detectRetina: true,
         }}
-      />
+      /> */}
             <Banner></Banner>
             <AboutMe></AboutMe>
             <MySkills></MySkills>
