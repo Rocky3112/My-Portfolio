@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-
 import { useEffect } from "react";
 import chef_house from '../../assets/chef-house.jpg'
 import chef_house1 from '../../assets/chef-house1.jpg'
@@ -11,12 +10,10 @@ import sports_camp1 from '../../assets/sports-camp1.jpg'
 import sports_camp2 from '../../assets/sports-camp2.jpg'
 import sports_camp3 from '../../assets/sports-camp3.jpg'
 import sports_camp4 from '../../assets/sports-camp4.jpg'
-// import double_digit from '../../assets/double-digit.jpg'
 import Aos from "aos";
 import 'aos/dist/aos.css';
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-
 
 const Projects = () => {
     useEffect(() => {
@@ -43,7 +40,7 @@ const Projects = () => {
                                 <div>
                                     <img className="w-full h-[500px]" src={sports_camp2} alt="" />
                                 </div>
-                               
+
                             </Carousel>
                         </div>
                     </div>
@@ -85,7 +82,7 @@ const Projects = () => {
                 <div data-aos="zoom-in-down" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1500" className='md:flex items-center lg:mt-10 gap-20'>
                     <div className='w-full mx-auto' >
                         <div className='project-site mx-auto'>
-                        <Carousel showThumbs={false} autoPlay={true} interval={2000}>
+                            <Carousel showThumbs={false} autoPlay={true} interval={2000}>
                                 <div>
                                     <img className="w-full h-[500px]" src={toy_world} alt="" />
                                 </div>
@@ -95,7 +92,7 @@ const Projects = () => {
                                 <div>
                                     <img className="w-full h-[500px]" src={toy_world2} alt="" />
                                 </div>
-                               
+
                             </Carousel>
                         </div>
                     </div>
@@ -140,7 +137,7 @@ const Projects = () => {
                 <div data-aos="zoom-in-down" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" className='md:flex items-center gap-20 '>
                     <div className='w-full mx-auto' >
                         <div className='project-site mx-auto'>
-                        <Carousel showThumbs={false} autoPlay={true} interval={2000}>
+                            <Carousel showThumbs={false} autoPlay={true} interval={2000}>
                                 <div>
                                     <img className="w-full h-[500px]" src={chef_house} alt="" />
                                 </div>
@@ -150,7 +147,7 @@ const Projects = () => {
                                 <div>
                                     <img className="w-full h-[500px]" src={chef_house2} alt="" />
                                 </div>
-                               
+
                             </Carousel>
                         </div>
                     </div>
@@ -163,7 +160,7 @@ const Projects = () => {
                                 <br />
                                 * It is organized by different categories such as databases, web servers, and monitoring tools, making it easy to find the right cookbook or recipe for your needs. <br />
 
-                                 * Each cookbook and recipe has includes instructions on how to use it, along with any dependencies and prerequisites. <br />
+                                * Each cookbook and recipe has includes instructions on how to use it, along with any dependencies and prerequisites. <br />
 
                                 * you can see the the recipe details for a specific chef after click the view recipes button.
                             </p>
