@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable react/no-unescaped-entities */
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
     return (
       <>
         <footer className="footer p-10 bg-neutral text-neutral-content mt-4">
@@ -63,7 +64,7 @@ const Footer = () => {
         </footer>
         <div className="footer footer-center p-4 bg-base-300 text-base-content">
     <div>
-      <p>Copyright © 2023 - All right reserved by Rocky's Portfolio</p>
+    <p>Copyright © {currentYear} - All rights reserved by Rocky's Portfolio</p>
     </div>
   </div>
       </>

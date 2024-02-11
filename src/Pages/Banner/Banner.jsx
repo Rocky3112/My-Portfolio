@@ -10,7 +10,7 @@ const Banner = () => {
     }
     return (
         <div className=''>
-            <div data-aos="zoom-in" className="hero h-[85vh] mb-10">
+            <div className="hero h-[85vh] mb-10">
                 <div className="hero-content flex-col lg:flex-row-reverse gap-5 mt-16">
                     <Fade direction='left'>
                     <img src={bannerPhoto} className="w-sm md:max-w-md rounded-lg shadow-slate-300 h-[500px]" alt='' />

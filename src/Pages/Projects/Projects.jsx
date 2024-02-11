@@ -22,7 +22,7 @@ const Projects = () => {
 
     return (
         <div id="projects" className="mx-4">
-            <h1 data-aos="zoom-in-down" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600" className="text-center font-bold text-4xl mt-16 text-red-500 p-7 mb-8 ">My Projects</h1>
+            <h1  className="text-center font-bold text-4xl mt-16 text-red-500 p-7 mb-8 ">My Projects</h1>
             <div className='w-full mx-auto mt-10 md:mt-20'>
                 <div data-aos="zoom-in-down" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000" className='md:flex items-center gap-20 my-20'>
                     <div className='w-full mx-auto' >

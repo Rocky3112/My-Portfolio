@@ -24,7 +24,7 @@ const Contact = () => {
     }
     return (
         <div id='contactMe' className='mt-20 mb-10'>
-            <div className=" min-h-screen">
+            <div className=" min-h-screen ">
                 <div>
                     <SectionTitle heading={'Contact Info-'}></SectionTitle>
                     <h3 className='text-2xl mx-20 text-justify'>
@@ -41,23 +41,23 @@ const Contact = () => {
                     </div>
                     <Fade direction='right'>
                         <div  className=" flex-shrink-0 w-[350px]  shadow-xl">
-                            <div className="">
+                            <div className=" text-white">
                                 <form ref={form} onSubmit={handleSubmit}>
                                     <div className="form-control">
                                         <label className="label">
-                                            <span className="label-text">Name</span>
+                                            <span className="label-text text-white">Name</span>
                                         </label>
                                         <input required type="name" name='user_name' placeholder="Name" className="input input-bordered" />
                                     </div>
                                     <div className="form-control">
                                         <label className="label">
-                                            <span className="label-text">Email</span>
+                                            <span className="label-text text-white">Email</span>
                                         </label>
                                         <input required type="email" name='user_email' placeholder="Email" className="input input-bordered" />
                                     </div>
                                     <div className="form-control">
                                         <label className="label">
-                                            <span className="label-text">Message</span>
+                                            <span className="label-text text-white">Message</span>
                                         </label>
                                         <textarea required type="text" name='message' rows={5} cols={30} className="textarea textarea-bordered" placeholder="Message"></textarea>
                                     </div>

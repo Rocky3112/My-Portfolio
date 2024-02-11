@@ -12,7 +12,7 @@ const AboutMe = () => {
             style={{ overflow: 'hidden' }}
             id='aboutMe' className='mt-80 lg:mb-16 lg:mt-28 mt-72-mobile'>
             <SectionTitle heading={'About me'}></SectionTitle>
-            <div data-aos="zoom-out-left" className="hero ">
+            <div className="hero ">
                 <div className="hero-content flex-col lg:flex-row gap-6 md:gap-20 mx-5">
                    <Fade duration={2000}>
                    <div>
