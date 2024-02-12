@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import ReactTyped from 'react-typed';
-import bannerPhoto from '../../assets/bannerImg.jpg';
+import bannerPhoto from '../../assets/banner.gif';
 import { Fade } from 'react-awesome-reveal';
 
 
@@ -11,9 +11,9 @@ const Banner = () => {
     return (
         <div className=''>
             <div className="hero h-[85vh] mb-10">
-                <div className="hero-content flex-col lg:flex-row-reverse gap-5 mt-16">
+                <div className="hero-content flex-col lg:flex-row-reverse gap-5 mt-[72px]">
                     <Fade direction='left'>
-                    <img src={bannerPhoto} className="w-sm md:max-w-md rounded-lg shadow-slate-300 h-[500px]" alt='' />
+                    <img src={bannerPhoto} className="w-sm md:max-w-md rounded-lg shadow-slate-300 h-[480px]" alt='' />
                     </Fade>
                     <div className='w-xs md:max-w-3xl ' >
                         <p className="text-xl font-semibold">Hello I'm</p>
